@@ -1,0 +1,335 @@
+customer_id,first_name,last_name,email,phone,birth_date,city,country,postal_code,segment,registration_date,last_login,is_verified,accepts_marketing
+1,Laura,Jones,laura.jones1@email.com,+1 826-750-9370,1981-01-28,Chicago,USA,42882,Platinum,2022-09-05,2024-05-17,true,0
+2,Anna,Miller,anna.miller2@email.com,+1 817-996-4368,1986-10-07,San Antonio,Canada,39038,Platinum,2023-08-23,2026-03-06,true,0
+3,Matthew,Jones,matthew.jones3@email.com,+1 339-349-7956,1974-05-28,Houston,UK,10847,Platinum,2020-11-13,2021-03-13,true,0
+4,Mary,Brown,mary.brown4@email.com,+1 638-412-5842,1981-11-06,San Diego,UK,95570,Platinum,2020-05-13,2024-09-15,false,0
+5,John,Johnson,john.johnson5@email.com,+1 698-715-7244,1987-11-22,Los Angeles,USA,90696,Bronze,2020-03-09,2020-10-08,false,1
+6,Camilla,Davis,camilla.davis6@email.com,+1 967-801-4276,2004-12-30,Dallas,Canada,61326,Gold,2022-09-13,2025-09-11,true,0
+7,Sophie,Wilson,sophie.wilson7@email.com,+1 939-671-1835,1996-12-13,Austin,Germany,86606,Bronze,2024-03-23,2024-10-20,true,1
+8,Mary,Miller,mary.miller8@email.com,+1 912-654-7272,2005-09-30,Phoenix,USA,93810,Silver,2021-01-24,2022-04-24,true,1
+9,Luke,Williams,luke.williams9@email.com,+1 643-237-2127,1972-01-05,Philadelphia,UK,56749,Gold,2022-01-10,2024-01-05,true,0
+10,David,Moore,david.moore10@email.com,+1 834-158-2885,1967-12-29,Philadelphia,Mexico,57887,Silver,2020-06-26,2024-06-11,false,1
+11,Mary,Davis,mary.davis11@email.com,+1 645-203-1138,2004-06-07,New York,USA,71581,Gold,2022-01-16,2023-03-04,true,1
+12,Matthew,Moore,matthew.moore12@email.com,+1 733-104-1174,1962-03-18,Chicago,USA,71379,Gold,2022-04-07,2023-09-27,true,1
+13,Laura,Brown,laura.brown13@email.com,+1 253-240-7084,1980-08-12,San Diego,Germany,55661,Gold,2020-08-05,2023-08-04,true,0
+14,David,Taylor,david.taylor14@email.com,+1 460-722-8733,1980-05-08,San Diego,Germany,35540,Bronze,2021-05-12,2021-07-07,false,0
+15,Lucy,Jones,lucy.jones15@email.com,+1 561-598-1463,1994-12-19,Dallas,UK,76901,Gold,2022-09-08,2022-10-24,true,0
+16,David,Williams,david.williams16@email.com,+1 734-565-6397,1975-04-17,Dallas,USA,53469,Bronze,2020-11-29,2021-10-01,true,0
+17,Laura,Brown,laura.brown17@email.com,+1 322-288-8235,1990-11-02,Philadelphia,UK,62072,Bronze,2022-02-05,2026-01-15,true,0
+18,Luke,Williams,luke.williams18@email.com,+1 498-673-2382,1962-10-04,Philadelphia,Canada,45631,Platinum,2021-12-30,2023-03-27,true,0
+19,John,Williams,john.williams19@email.com,+1 551-892-8827,1987-07-20,San Antonio,Germany,36320,Silver,2024-03-07,2024-11-12,false,1
+20,Anna,Brown,anna.brown20@email.com,+1 539-349-2390,1978-03-07,Philadelphia,UK,44289,Silver,2022-07-15,2024-02-11,false,0
+21,Gabriel,Johnson,gabriel.johnson21@email.com,+1 685-584-8277,1974-09-24,San Diego,Germany,98444,Silver,2020-10-25,2024-09-29,false,0
+22,Lucy,Davis,lucy.davis22@email.com,+1 713-192-6856,1984-01-10,Phoenix,Canada,46441,Gold,2022-08-17,2023-12-11,false,0
+23,Matthew,Davis,matthew.davis23@email.com,+1 853-315-4542,1999-03-27,Philadelphia,Canada,66404,Silver,2023-01-17,2023-12-18,false,0
+24,Gabriel,Jones,gabriel.jones24@email.com,+1 896-454-1671,2003-05-05,Chicago,UK,90403,Platinum,2020-02-04,2022-04-29,true,1
+25,Mary,Johnson,mary.johnson25@email.com,+1 794-760-1978,1983-05-17,San Antonio,France,35031,Platinum,2024-05-20,2024-05-28,true,0
+26,Mary,Brown,mary.brown26@email.com,+1 784-845-1972,1992-08-17,Phoenix,USA,82276,Gold,2021-09-02,2021-11-20,true,0
+27,Gabriel,Moore,gabriel.moore27@email.com,+1 925-313-5634,1983-09-03,San Antonio,Mexico,17153,Silver,2023-01-30,2023-09-02,true,0
+28,Sophie,Williams,sophie.williams28@email.com,+1 989-783-4626,1988-04-24,New York,France,64933,Gold,2021-06-15,2023-02-16,true,0
+29,Camilla,Taylor,camilla.taylor29@email.com,+1 392-593-2401,1993-03-12,San Diego,France,26148,Gold,2022-07-15,2022-08-04,true,0
+30,Valerie,Jones,valerie.jones30@email.com,+1 535-381-9112,1997-01-01,Phoenix,USA,44735,Platinum,2022-12-30,2023-02-26,true,1
+31,John,Wilson,john.wilson31@email.com,+1 719-699-5044,1963-01-04,Dallas,USA,40333,Gold,2021-12-18,2025-04-22,true,0
+32,Sophie,Johnson,sophie.johnson32@email.com,+1 884-863-9901,2004-10-03,Chicago,USA,91652,Bronze,2021-08-18,2024-10-31,true,1
+33,Sophie,Brown,sophie.brown33@email.com,+1 829-288-4619,1993-07-16,Los Angeles,USA,48696,Platinum,2024-05-04,2025-09-30,true,1
+34,Charles,Brown,charles.brown34@email.com,+1 599-808-1415,1997-08-18,San Diego,France,54671,Silver,2023-09-02,2025-09-27,false,0
+35,Anna,Smith,anna.smith35@email.com,+1 953-174-1112,1998-05-03,Philadelphia,Canada,70420,Platinum,2020-03-27,2025-01-04,true,0
+36,Lucy,Moore,lucy.moore36@email.com,+1 896-195-7027,2005-01-11,San Antonio,UK,13974,Gold,2024-05-04,2024-05-15,true,1
+37,Lucy,Brown,lucy.brown37@email.com,+1 218-272-9994,1973-10-06,San Diego,Germany,71817,Silver,2022-02-21,2023-01-24,true,1
+38,Peter,Brown,peter.brown38@email.com,+1 429-440-8460,1999-03-04,New York,Mexico,46161,Bronze,2023-08-15,2024-09-18,true,1
+39,Lucy,Miller,lucy.miller39@email.com,+1 724-811-1982,1965-08-28,Phoenix,USA,55897,Silver,2020-09-15,2023-02-19,true,1
+40,David,Williams,david.williams40@email.com,+1 457-193-3206,1987-12-21,Phoenix,Germany,13287,Gold,2022-06-29,2024-04-21,true,1
+41,Lucy,Smith,lucy.smith41@email.com,+1 608-430-2692,1988-09-08,San Diego,France,34801,Platinum,2020-12-26,2022-07-14,false,1
+42,Matthew,Wilson,matthew.wilson42@email.com,+1 588-709-4812,1974-12-30,Dallas,Canada,99308,Gold,2024-04-23,2025-10-21,true,0
+43,Gabriel,Moore,gabriel.moore43@email.com,+1 923-774-9366,2004-10-29,Austin,USA,29519,Gold,2021-05-14,2025-01-15,true,1
+44,Mary,Williams,mary.williams44@email.com,+1 828-720-6630,1970-06-25,Austin,UK,34774,Platinum,2022-12-02,2023-08-17,true,1
+45,Martin,Williams,martin.williams45@email.com,+1 636-591-3766,2004-12-16,San Diego,USA,16961,Platinum,2023-10-02,2025-01-04,true,1
+46,Lucy,Johnson,lucy.johnson46@email.com,+1 685-921-8051,1969-03-13,Phoenix,Germany,81453,Silver,2020-06-22,2022-05-07,true,0
+47,Mary,Moore,mary.moore47@email.com,+1 235-734-1387,1965-02-06,Dallas,USA,68281,Bronze,2020-03-05,2021-08-06,true,1
+48,Mary,Miller,mary.miller48@email.com,+1 500-542-3696,1967-04-10,Houston,USA,29719,Platinum,2024-01-19,2025-02-05,true,0
+49,John,Johnson,john.johnson49@email.com,+1 475-945-3128,2004-01-06,San Diego,Germany,29907,Gold,2021-06-18,2025-04-07,true,0
+50,Camilla,Jones,camilla.jones50@email.com,+1 467-344-9750,1981-06-16,Chicago,USA,63580,Gold,2020-01-14,2023-04-08,true,1
+51,Martin,Wilson,martin.wilson51@email.com,+1 859-761-6554,1990-10-14,Phoenix,Canada,20910,Gold,2022-12-25,2026-01-24,false,1
+52,Matthew,Moore,matthew.moore52@email.com,+1 691-656-6565,1980-02-11,San Diego,France,49362,Gold,2021-05-23,2024-03-11,true,0
+53,Martin,Davis,martin.davis53@email.com,+1 938-191-4752,1997-03-12,Houston,Canada,63683,Bronze,2024-02-07,2026-01-17,true,1
+54,Anna,Miller,anna.miller54@email.com,+1 465-113-7270,1961-09-08,Dallas,UK,14538,Silver,2020-12-30,2024-07-06,false,1
+55,Anna,Davis,anna.davis55@email.com,+1 233-461-2428,1986-06-04,San Diego,France,71726,Bronze,2021-10-17,2023-10-29,true,0
+56,Camilla,Davis,camilla.davis56@email.com,+1 220-865-7128,1979-12-16,Austin,UK,92272,Gold,2023-10-14,2025-07-11,false,1
+57,Charles,Miller,charles.miller57@email.com,+1 641-950-7833,2003-06-28,Phoenix,France,29968,Silver,2023-09-19,2025-04-26,true,1
+58,Matthew,Miller,matthew.miller58@email.com,+1 710-886-4148,1970-11-14,San Diego,USA,55648,Platinum,2022-12-03,2025-09-23,true,1
+59,John,Davis,john.davis59@email.com,+1 627-643-3230,1973-05-28,San Antonio,UK,69812,Platinum,2024-01-29,2024-05-17,true,0
+60,Martin,Johnson,martin.johnson60@email.com,+1 217-801-2842,1969-06-21,Los Angeles,USA,96293,Platinum,2020-12-01,2025-06-11,true,0
+61,Peter,Taylor,peter.taylor61@email.com,+1 753-662-1380,1964-02-02,Chicago,France,30119,Gold,2021-04-29,2023-04-09,true,0
+62,John,Miller,john.miller62@email.com,+1 980-595-5519,1961-08-02,San Diego,Mexico,90272,Silver,2020-05-19,2026-02-05,false,0
+63,Lucy,Jones,lucy.jones63@email.com,+1 461-707-7925,1991-06-16,Los Angeles,Mexico,39299,Silver,2022-08-08,2023-06-12,true,0
+64,Lucy,Davis,lucy.davis64@email.com,+1 306-632-1093,1972-04-23,Philadelphia,USA,25141,Bronze,2021-10-16,2022-12-06,false,0
+65,John,Jones,john.jones65@email.com,+1 939-652-3822,1998-04-04,Philadelphia,UK,57903,Platinum,2022-07-09,2024-01-08,true,0
+66,Camilla,Johnson,camilla.johnson66@email.com,+1 323-488-2664,2005-09-04,San Diego,Canada,37606,Platinum,2021-07-29,2021-11-11,true,1
+67,Charles,Brown,charles.brown67@email.com,+1 794-867-6338,1975-04-19,Dallas,UK,15341,Silver,2021-01-15,2021-11-02,true,1
+68,Charles,Williams,charles.williams68@email.com,+1 672-501-7824,1965-09-09,San Antonio,Mexico,77447,Silver,2022-09-18,2024-02-14,false,0
+69,Valerie,Davis,valerie.davis69@email.com,+1 506-283-9575,1995-05-23,Austin,USA,69733,Bronze,2023-04-26,2025-08-03,true,0
+70,Gabriel,Taylor,gabriel.taylor70@email.com,+1 619-633-6759,1966-08-24,Austin,USA,41627,Platinum,2021-09-16,2022-11-14,true,0
+71,Sophie,Davis,sophie.davis71@email.com,+1 493-339-3368,1979-09-04,Chicago,Germany,53872,Bronze,2020-11-13,2024-12-26,true,0
+72,John,Davis,john.davis72@email.com,+1 848-835-7035,1976-10-01,New York,Mexico,18259,Silver,2022-06-30,2023-05-16,true,0
+73,Martin,Johnson,martin.johnson73@email.com,+1 995-720-3917,1966-08-03,Philadelphia,Canada,53433,Platinum,2022-01-28,2022-07-12,true,1
+74,Valerie,Smith,valerie.smith74@email.com,+1 776-853-8884,1989-05-05,Philadelphia,USA,73233,Gold,2022-11-30,2025-12-21,false,1
+75,Sophie,Davis,sophie.davis75@email.com,+1 795-267-8895,1971-09-01,Austin,France,69971,Silver,2024-05-18,2025-02-05,false,1
+76,Luke,Wilson,luke.wilson76@email.com,+1 533-231-9846,1994-03-22,Chicago,USA,99241,Gold,2023-08-10,2025-02-22,true,0
+77,Camilla,Johnson,camilla.johnson77@email.com,+1 206-814-7768,1965-03-10,Phoenix,UK,36817,Platinum,2023-02-14,2025-05-02,true,0
+78,Charles,Smith,charles.smith78@email.com,+1 413-120-1607,1987-03-27,San Antonio,UK,65685,Gold,2022-10-28,2024-07-25,true,1
+79,Martin,Moore,martin.moore79@email.com,+1 776-184-6302,1972-01-28,Philadelphia,Canada,94985,Silver,2023-04-10,2023-06-13,true,1
+80,Peter,Wilson,peter.wilson80@email.com,+1 983-630-8176,1988-08-31,Los Angeles,Canada,96978,Gold,2020-04-01,2023-07-21,true,1
+81,Martin,Wilson,martin.wilson81@email.com,+1 233-673-2469,1975-11-19,New York,UK,91655,Bronze,2020-03-09,2020-05-02,true,0
+82,Anna,Davis,anna.davis82@email.com,+1 424-628-9187,1987-08-25,Phoenix,Germany,26883,Gold,2021-01-13,2021-09-15,true,0
+83,Valerie,Davis,valerie.davis83@email.com,+1 998-140-3884,1982-03-11,Houston,Canada,16369,Platinum,2023-03-10,2023-12-16,true,1
+84,David,Davis,david.davis84@email.com,+1 796-982-5750,1989-10-15,Austin,USA,86053,Gold,2020-07-29,2023-03-20,true,0
+85,Sophie,Moore,sophie.moore85@email.com,+1 995-789-6675,2000-08-01,Los Angeles,USA,60063,Gold,2023-02-12,2024-11-30,false,1
+86,Matthew,Johnson,matthew.johnson86@email.com,+1 237-551-5329,1971-09-29,New York,Canada,27104,Platinum,2022-09-28,2023-11-30,true,1
+87,Sophie,Brown,sophie.brown87@email.com,+1 735-481-4409,1993-07-08,Los Angeles,Germany,44508,Gold,2020-02-15,2021-11-28,true,1
+88,Peter,Davis,peter.davis88@email.com,+1 752-574-7527,1961-10-05,Houston,USA,31560,Silver,2023-01-07,2025-01-08,false,1
+89,John,Jones,john.jones89@email.com,+1 632-160-1019,1977-03-05,Phoenix,UK,75231,Bronze,2022-09-28,2023-07-18,true,1
+90,David,Jones,david.jones90@email.com,+1 886-958-6091,1973-11-11,New York,UK,66927,Gold,2020-08-08,2025-11-11,true,0
+91,David,Davis,david.davis91@email.com,+1 599-103-8626,1960-02-20,New York,USA,18005,Platinum,2023-04-22,2023-05-26,true,1
+92,Peter,Taylor,peter.taylor92@email.com,+1 882-997-9553,1962-11-17,Los Angeles,Mexico,14404,Silver,2023-05-12,2025-10-31,true,0
+93,Matthew,Taylor,matthew.taylor93@email.com,+1 504-562-3930,1982-04-28,Philadelphia,UK,23363,Platinum,2020-01-15,2022-07-20,true,0
+94,Luke,Moore,luke.moore94@email.com,+1 938-860-8435,1997-06-27,Dallas,Germany,12659,Silver,2023-12-11,2025-10-22,true,0
+95,Gabriel,Smith,gabriel.smith95@email.com,+1 983-968-4245,2000-05-19,Dallas,Mexico,24349,Silver,2020-12-15,2022-02-23,true,0
+96,Valerie,Johnson,valerie.johnson96@email.com,+1 997-486-7366,1998-11-07,Chicago,UK,57784,Silver,2020-05-19,2022-07-23,true,0
+97,Laura,Brown,laura.brown97@email.com,+1 524-365-1872,1985-03-03,San Antonio,USA,57858,Platinum,2023-05-09,2025-06-04,true,0
+98,Martin,Moore,martin.moore98@email.com,+1 407-233-2173,1996-11-15,Chicago,France,66456,Gold,2023-07-01,2026-01-16,true,0
+99,Matthew,Miller,matthew.miller99@email.com,+1 963-917-6466,1960-09-26,Houston,USA,64846,Silver,2021-01-18,2023-03-17,false,0
+100,Valerie,Brown,valerie.brown100@email.com,+1 797-899-6666,1994-08-01,Phoenix,Germany,54233,Bronze,2020-10-29,2023-12-27,true,1
+101,Lucy,Brown,lucy.brown101@email.com,+1 690-527-8942,1980-02-09,Chicago,USA,70642,Platinum,2020-11-21,2021-06-20,true,1
+102,Sophie,Davis,sophie.davis102@email.com,+1 884-243-6870,1990-06-07,Philadelphia,USA,33422,Bronze,2022-09-08,2025-08-16,true,0
+103,Gabriel,Jones,gabriel.jones103@email.com,+1 338-245-2313,1987-04-07,Austin,Germany,98179,Bronze,2023-08-30,2024-07-09,true,1
+104,Luke,Williams,luke.williams104@email.com,+1 495-516-8307,1977-06-11,Austin,USA,77679,Platinum,2023-07-02,2025-04-28,true,0
+105,Laura,Moore,laura.moore105@email.com,+1 480-839-4157,1995-10-08,San Antonio,Canada,87493,Gold,2023-02-28,2025-07-05,true,0
+106,Anna,Moore,anna.moore106@email.com,+1 524-984-7644,1981-08-29,Austin,Canada,84937,Silver,2020-02-11,2023-01-08,true,0
+107,Camilla,Miller,camilla.miller107@email.com,+1 283-456-2196,1973-12-04,Los Angeles,France,60333,Platinum,2020-08-09,2021-07-22,true,0
+108,Anna,Wilson,anna.wilson108@email.com,+1 556-484-6913,1988-11-05,Chicago,Canada,99487,Platinum,2024-03-14,2025-09-22,true,1
+109,David,Williams,david.williams109@email.com,+1 836-252-8103,1974-03-31,Chicago,Germany,84652,Silver,2021-09-07,2024-06-04,true,1
+110,John,Miller,john.miller110@email.com,+1 723-105-6449,1999-07-27,Phoenix,France,32923,Gold,2022-08-03,2024-02-16,false,1
+111,Sophie,Brown,sophie.brown111@email.com,+1 908-836-8127,1964-05-03,Phoenix,USA,89774,Silver,2023-10-02,2025-01-03,true,0
+112,Peter,Taylor,peter.taylor112@email.com,+1 211-719-5105,1985-01-20,Dallas,USA,48424,Gold,2020-01-15,2025-07-22,true,0
+113,Gabriel,Smith,gabriel.smith113@email.com,+1 729-824-3832,1976-07-01,New York,USA,99651,Platinum,2021-02-12,2022-11-20,true,0
+114,David,Smith,david.smith114@email.com,+1 974-810-1328,1970-04-12,New York,Mexico,31245,Silver,2020-01-23,2023-10-18,false,1
+115,Mary,Taylor,mary.taylor115@email.com,+1 432-461-3011,1969-01-14,Austin,Mexico,31451,Silver,2021-02-28,2021-03-21,true,1
+116,Camilla,Smith,camilla.smith116@email.com,+1 555-160-9041,2004-12-07,Phoenix,USA,70731,Gold,2021-01-10,2024-12-10,true,0
+117,Matthew,Smith,matthew.smith117@email.com,+1 709-898-1876,1977-12-20,Austin,Mexico,33838,Bronze,2022-12-27,2024-11-15,false,1
+118,Martin,Jones,martin.jones118@email.com,+1 958-787-4783,2005-03-16,Houston,Germany,38388,Silver,2022-09-18,2022-11-30,true,1
+119,John,Davis,john.davis119@email.com,+1 749-961-1960,1982-11-21,Phoenix,UK,24331,Gold,2020-09-07,2025-12-05,true,1
+120,Charles,Johnson,charles.johnson120@email.com,+1 989-786-1010,1984-02-22,San Diego,USA,45031,Silver,2023-09-14,2026-02-24,true,1
+121,Laura,Wilson,laura.wilson121@email.com,+1 992-201-2981,1976-07-27,Phoenix,Mexico,50718,Gold,2023-12-24,2024-04-07,true,0
+122,Gabriel,Williams,gabriel.williams122@email.com,+1 488-767-6581,1969-03-18,Phoenix,UK,93053,Gold,2023-04-01,2025-05-30,true,1
+123,Martin,Brown,martin.brown123@email.com,+1 541-462-6377,1964-05-21,Philadelphia,France,38246,Silver,2020-02-08,2025-03-28,true,0
+124,Valerie,Williams,valerie.williams124@email.com,+1 279-289-5166,1996-12-01,Philadelphia,USA,57340,Gold,2022-11-21,2024-10-13,false,0
+125,John,Davis,john.davis125@email.com,+1 307-520-1856,1998-03-07,Dallas,UK,35417,Gold,2024-05-20,2024-07-17,false,1
+126,Valerie,Miller,valerie.miller126@email.com,+1 643-596-2118,1981-01-15,Dallas,USA,79894,Bronze,2021-07-09,2022-04-26,false,1
+127,Martin,Miller,martin.miller127@email.com,+1 807-650-1282,2005-06-28,Los Angeles,Canada,21968,Bronze,2023-10-21,2023-12-22,true,0
+128,Camilla,Jones,camilla.jones128@email.com,+1 623-844-9382,1976-06-29,Los Angeles,USA,52692,Platinum,2024-01-04,2025-02-27,false,0
+129,Charles,Williams,charles.williams129@email.com,+1 705-663-3979,1997-08-08,Dallas,Mexico,79491,Gold,2021-05-02,2024-04-24,true,1
+130,Sophie,Brown,sophie.brown130@email.com,+1 991-574-5176,1988-01-26,San Antonio,USA,92539,Gold,2021-09-03,2024-03-28,true,1
+131,Camilla,Davis,camilla.davis131@email.com,+1 603-893-7713,1991-12-07,Philadelphia,France,30699,Bronze,2024-02-15,2025-01-24,false,0
+132,Valerie,Miller,valerie.miller132@email.com,+1 389-354-5427,1968-09-22,Dallas,Canada,44648,Bronze,2020-10-20,2024-11-02,true,0
+133,Peter,Miller,peter.miller133@email.com,+1 727-268-3219,1968-01-25,Philadelphia,USA,61315,Gold,2020-09-07,2024-07-23,true,1
+134,Laura,Moore,laura.moore134@email.com,+1 949-666-6998,1961-10-14,Chicago,Mexico,98773,Silver,2023-01-24,2023-12-04,true,0
+135,David,Miller,david.miller135@email.com,+1 697-434-3876,1982-11-05,San Diego,UK,82830,Gold,2022-05-08,2024-09-14,false,0
+136,David,Johnson,david.johnson136@email.com,+1 403-262-8689,1999-03-24,Philadelphia,USA,57037,Silver,2024-03-14,2024-07-31,true,0
+137,Laura,Moore,laura.moore137@email.com,+1 217-968-1610,1965-01-23,Dallas,France,12009,Bronze,2024-03-18,2024-05-31,false,1
+138,Anna,Taylor,anna.taylor138@email.com,+1 921-354-8122,1991-12-10,San Antonio,USA,89360,Silver,2020-09-24,2022-11-10,false,0
+139,Camilla,Moore,camilla.moore139@email.com,+1 377-745-9486,1992-04-30,San Diego,France,27824,Bronze,2023-08-24,2024-02-16,false,1
+140,Mary,Williams,mary.williams140@email.com,+1 802-784-8687,1983-10-06,Chicago,USA,50272,Platinum,2023-11-11,2024-07-29,true,1
+141,Charles,Smith,charles.smith141@email.com,+1 394-887-9779,2001-05-08,Chicago,UK,60181,Platinum,2021-07-18,2025-03-12,false,0
+142,Camilla,Moore,camilla.moore142@email.com,+1 616-166-8244,1961-10-12,San Antonio,Mexico,57542,Bronze,2021-07-30,2024-03-05,true,0
+143,Sophie,Johnson,sophie.johnson143@email.com,+1 750-163-2334,1986-11-18,New York,Mexico,94832,Silver,2021-09-06,2025-01-09,true,1
+144,Martin,Jones,martin.jones144@email.com,+1 581-811-2019,1993-08-25,San Antonio,France,34230,Bronze,2022-02-20,2022-03-14,true,1
+145,Valerie,Moore,valerie.moore145@email.com,+1 688-796-2897,1993-01-10,San Antonio,Canada,27365,Platinum,2021-06-20,2023-02-10,false,0
+146,Camilla,Moore,camilla.moore146@email.com,+1 686-621-8652,1998-07-08,Austin,USA,49873,Bronze,2020-08-09,2022-01-16,true,0
+147,Gabriel,Wilson,gabriel.wilson147@email.com,+1 619-635-5752,2004-05-31,Philadelphia,USA,50635,Platinum,2021-06-17,2024-12-31,true,0
+148,David,Brown,david.brown148@email.com,+1 592-977-9469,1995-02-08,Los Angeles,USA,16602,Gold,2021-02-09,2026-03-11,true,1
+149,Mary,Jones,mary.jones149@email.com,+1 430-895-1447,2005-07-18,San Antonio,Canada,20366,Bronze,2023-07-03,2025-06-22,true,1
+150,Peter,Williams,peter.williams150@email.com,+1 765-961-8857,1972-05-17,Los Angeles,Canada,95004,Bronze,2021-12-29,2025-06-09,true,0
+151,Sophie,Miller,sophie.miller151@email.com,+1 436-172-4987,1978-04-14,Chicago,France,75335,Silver,2020-12-03,2021-06-13,true,1
+152,David,Williams,david.williams152@email.com,+1 635-335-5779,1989-03-01,Houston,USA,39544,Gold,2023-05-30,2025-03-14,true,0
+153,John,Brown,john.brown153@email.com,+1 932-453-3740,1975-03-10,Austin,France,12215,Platinum,2021-03-26,2023-12-03,true,1
+154,Matthew,Johnson,matthew.johnson154@email.com,+1 683-804-7406,1964-09-19,Houston,France,56091,Gold,2020-09-01,2025-06-15,true,1
+155,Laura,Wilson,laura.wilson155@email.com,+1 237-223-6959,1982-07-25,San Antonio,UK,82289,Bronze,2021-04-09,2023-02-18,true,1
+156,Lucy,Williams,lucy.williams156@email.com,+1 844-455-1074,2003-05-13,San Diego,Germany,84113,Silver,2024-04-30,2026-02-23,true,1
+157,Lucy,Davis,lucy.davis157@email.com,+1 679-449-1489,1972-06-16,New York,USA,15443,Silver,2021-04-03,2023-02-16,true,0
+158,Martin,Davis,martin.davis158@email.com,+1 397-246-2716,2002-05-12,New York,UK,46857,Bronze,2021-04-02,2023-03-07,true,0
+159,Lucy,Johnson,lucy.johnson159@email.com,+1 382-823-3496,1988-01-19,Chicago,Mexico,52248,Platinum,2020-08-05,2024-08-03,false,1
+160,John,Williams,john.williams160@email.com,+1 403-687-5934,1967-11-26,Houston,France,10931,Gold,2020-10-04,2025-07-10,true,1
+161,Valerie,Jones,valerie.jones161@email.com,+1 617-798-3577,1981-12-18,Chicago,USA,48414,Gold,2020-10-20,2021-05-05,true,0
+162,Charles,Moore,charles.moore162@email.com,+1 689-274-3195,1997-07-12,Houston,UK,45521,Gold,2023-02-02,2024-01-26,true,0
+163,Gabriel,Jones,gabriel.jones163@email.com,+1 524-348-8028,1999-10-07,New York,UK,48279,Bronze,2021-09-15,2022-04-08,true,0
+164,Mary,Jones,mary.jones164@email.com,+1 347-802-3004,1971-07-13,Philadelphia,USA,29413,Platinum,2020-04-07,2020-08-17,true,1
+165,Luke,Miller,luke.miller165@email.com,+1 375-974-5531,1997-12-08,New York,USA,59084,Silver,2020-10-27,2021-05-19,true,1
+166,Gabriel,Wilson,gabriel.wilson166@email.com,+1 284-826-8095,2003-05-03,Austin,USA,72822,Gold,2023-02-23,2025-07-16,true,1
+167,Gabriel,Davis,gabriel.davis167@email.com,+1 776-116-7380,1995-07-25,Austin,Canada,18756,Bronze,2020-02-26,2023-09-03,true,1
+168,Valerie,Jones,valerie.jones168@email.com,+1 601-477-4461,1993-06-11,Phoenix,USA,24393,Gold,2022-05-07,2023-04-06,true,0
+169,Sophie,Taylor,sophie.taylor169@email.com,+1 503-119-3600,1968-06-22,Houston,USA,69223,Bronze,2020-10-26,2021-06-25,true,1
+170,Mary,Johnson,mary.johnson170@email.com,+1 328-946-4902,1969-02-08,Austin,Canada,19553,Platinum,2024-03-15,2025-04-07,false,0
+171,Gabriel,Miller,gabriel.miller171@email.com,+1 815-723-2862,2002-04-12,Phoenix,USA,35156,Bronze,2020-03-28,2021-12-23,true,1
+172,Sophie,Taylor,sophie.taylor172@email.com,+1 871-130-2111,1983-04-20,Los Angeles,USA,87301,Bronze,2024-03-17,2025-10-10,true,1
+173,Gabriel,Wilson,gabriel.wilson173@email.com,+1 385-480-5079,1972-03-21,San Diego,UK,23917,Platinum,2023-02-09,2025-09-28,true,0
+174,David,Miller,david.miller174@email.com,+1 543-314-7623,1988-01-19,New York,USA,24213,Gold,2020-03-29,2022-10-09,true,1
+175,Martin,Taylor,martin.taylor175@email.com,+1 273-140-1756,1961-06-30,San Antonio,Canada,10934,Bronze,2024-02-17,2025-10-13,true,1
+176,Mary,Davis,mary.davis176@email.com,+1 758-338-5868,1971-07-19,San Diego,USA,31671,Gold,2023-03-05,2023-05-10,true,0
+177,Martin,Moore,martin.moore177@email.com,+1 763-465-4091,1985-06-08,Chicago,France,79157,Platinum,2021-07-31,2023-10-04,false,0
+178,Matthew,Miller,matthew.miller178@email.com,+1 720-404-6621,2005-10-26,Dallas,USA,90647,Bronze,2024-04-10,2025-10-06,true,1
+179,Lucy,Taylor,lucy.taylor179@email.com,+1 944-734-7678,1968-08-18,San Diego,Mexico,41834,Gold,2021-05-14,2023-07-27,true,0
+180,Laura,Taylor,laura.taylor180@email.com,+1 851-311-9894,1963-08-18,Austin,France,31848,Gold,2022-06-04,2024-06-29,false,1
+181,Sophie,Jones,sophie.jones181@email.com,+1 807-931-2029,1991-07-29,New York,Mexico,51293,Bronze,2023-07-30,2025-03-27,false,0
+182,Camilla,Taylor,camilla.taylor182@email.com,+1 408-659-4283,1963-08-17,Chicago,Germany,96437,Platinum,2020-08-04,2022-11-15,true,1
+183,Valerie,Taylor,valerie.taylor183@email.com,+1 779-244-1398,1969-07-04,Houston,Germany,27484,Gold,2020-11-06,2024-09-15,true,1
+184,Valerie,Johnson,valerie.johnson184@email.com,+1 856-958-2852,1991-03-08,New York,Mexico,20677,Bronze,2022-11-26,2023-05-18,true,1
+185,Gabriel,Brown,gabriel.brown185@email.com,+1 447-118-8038,1969-05-10,Chicago,USA,41279,Bronze,2022-07-09,2022-08-29,true,1
+186,Peter,Johnson,peter.johnson186@email.com,+1 570-852-1582,1973-01-25,New York,Mexico,20560,Silver,2023-04-21,2026-01-29,true,1
+187,Martin,Brown,martin.brown187@email.com,+1 420-521-7621,1966-08-12,Chicago,USA,22183,Silver,2020-10-26,2023-03-11,true,1
+188,Peter,Taylor,peter.taylor188@email.com,+1 808-936-6833,2002-05-17,Phoenix,Mexico,53161,Bronze,2023-03-18,2025-08-11,false,0
+189,David,Williams,david.williams189@email.com,+1 919-181-7168,1974-02-06,New York,France,93967,Platinum,2022-02-25,2024-09-01,true,1
+190,Charles,Jones,charles.jones190@email.com,+1 557-407-6948,1970-10-26,Los Angeles,UK,58066,Gold,2020-07-17,2023-08-19,true,1
+191,Valerie,Wilson,valerie.wilson191@email.com,+1 805-648-8879,1972-11-14,Los Angeles,USA,85408,Bronze,2020-05-14,2021-01-17,true,0
+192,John,Taylor,john.taylor192@email.com,+1 213-950-6897,1990-02-03,Dallas,Germany,91837,Platinum,2024-03-07,2025-03-09,true,1
+193,David,Brown,david.brown193@email.com,+1 347-204-8990,2004-04-24,Dallas,Germany,80104,Platinum,2021-07-12,2023-05-21,false,0
+194,Mary,Brown,mary.brown194@email.com,+1 350-124-6479,1999-12-27,New York,France,77099,Platinum,2021-02-04,2022-01-28,true,0
+195,Valerie,Taylor,valerie.taylor195@email.com,+1 684-425-3167,1999-05-14,Chicago,Mexico,51580,Silver,2021-01-26,2021-02-02,true,1
+196,Lucy,Smith,lucy.smith196@email.com,+1 634-170-2300,2005-08-26,San Antonio,France,76449,Silver,2022-11-24,2024-04-10,true,1
+197,Luke,Wilson,luke.wilson197@email.com,+1 560-783-6551,1981-05-03,Chicago,USA,96962,Platinum,2021-09-01,2023-05-13,false,0
+198,Gabriel,Davis,gabriel.davis198@email.com,+1 592-986-8241,1963-08-09,Chicago,USA,42697,Platinum,2021-03-24,2025-04-12,true,0
+199,Camilla,Brown,camilla.brown199@email.com,+1 879-839-1650,1990-10-07,New York,Mexico,59353,Gold,2020-07-19,2023-11-27,false,1
+200,Valerie,Davis,valerie.davis200@email.com,+1 511-426-6313,1980-03-25,San Diego,USA,17517,Gold,2020-01-15,2023-04-05,true,1
+201,Laura,Taylor,laura.taylor201@email.com,+1 992-180-2838,1989-01-06,Los Angeles,UK,80718,Platinum,2020-04-28,2025-08-27,true,1
+202,Martin,Jones,martin.jones202@email.com,+1 310-317-9928,1986-07-21,New York,Canada,41802,Silver,2020-09-30,2025-10-10,false,0
+203,John,Miller,john.miller203@email.com,+1 874-627-8525,1966-04-14,Phoenix,Germany,43030,Silver,2023-01-23,2025-12-17,true,1
+204,Laura,Johnson,laura.johnson204@email.com,+1 676-390-8059,1990-02-22,San Antonio,Canada,85599,Silver,2020-03-23,2024-11-05,true,1
+205,Peter,Davis,peter.davis205@email.com,+1 286-363-3694,1995-02-19,Chicago,Mexico,52976,Silver,2023-08-28,2025-07-12,true,0
+206,Camilla,Wilson,camilla.wilson206@email.com,+1 412-439-1072,1968-09-03,San Diego,Mexico,80841,Gold,2022-03-17,2026-02-22,true,1
+207,Mary,Miller,mary.miller207@email.com,+1 901-945-1070,1996-07-11,New York,Canada,11834,Platinum,2020-12-04,2026-03-04,true,1
+208,Matthew,Brown,matthew.brown208@email.com,+1 285-154-7528,2004-03-16,Philadelphia,USA,47419,Platinum,2021-01-14,2025-02-16,true,1
+209,Matthew,Williams,matthew.williams209@email.com,+1 272-654-5787,1997-07-14,San Antonio,USA,15104,Gold,2024-05-15,2024-07-29,true,0
+210,Mary,Brown,mary.brown210@email.com,+1 456-404-4812,1970-02-20,Chicago,Canada,61891,Silver,2024-01-12,2025-01-14,false,0
+211,John,Williams,john.williams211@email.com,+1 899-601-6762,2004-10-04,New York,USA,35986,Platinum,2023-03-01,2023-06-11,false,0
+212,Luke,Smith,luke.smith212@email.com,+1 848-833-7851,2001-12-06,Los Angeles,USA,23072,Platinum,2023-05-06,2024-08-23,true,0
+213,Gabriel,Davis,gabriel.davis213@email.com,+1 536-139-7724,1962-05-08,Houston,France,39711,Platinum,2024-02-22,2024-06-30,true,0
+214,Mary,Davis,mary.davis214@email.com,+1 623-828-6030,1978-09-15,New York,USA,30172,Bronze,2022-05-31,2022-09-08,true,1
+215,Sophie,Smith,sophie.smith215@email.com,+1 303-769-6007,1981-02-19,Houston,Germany,71056,Gold,2022-12-26,2026-01-19,true,0
+216,Sophie,Taylor,sophie.taylor216@email.com,+1 619-749-3702,1960-04-02,Chicago,France,93480,Gold,2023-07-04,2026-02-19,true,0
+217,John,Wilson,john.wilson217@email.com,+1 234-470-3608,1990-04-01,Los Angeles,France,66924,Gold,2023-10-11,2025-04-16,true,1
+218,Valerie,Miller,valerie.miller218@email.com,+1 287-627-8282,1969-02-21,Houston,UK,57927,Platinum,2020-03-26,2024-02-22,true,1
+219,Camilla,Taylor,camilla.taylor219@email.com,+1 383-206-8424,1976-03-24,Dallas,UK,73729,Platinum,2020-04-26,2025-06-18,false,0
+220,Mary,Taylor,mary.taylor220@email.com,+1 910-741-8009,1967-02-24,Dallas,UK,33433,Gold,2023-03-21,2023-10-15,true,1
+221,Sophie,Williams,sophie.williams221@email.com,+1 263-316-5523,2000-10-18,Chicago,Germany,11673,Platinum,2020-07-15,2024-12-23,true,1
+222,Camilla,Miller,camilla.miller222@email.com,+1 999-945-2037,1996-05-07,San Antonio,UK,47265,Platinum,2023-11-02,2024-05-19,true,1
+223,Mary,Williams,mary.williams223@email.com,+1 803-899-3103,1975-07-24,San Antonio,USA,38084,Platinum,2021-01-02,2024-04-03,true,1
+224,Valerie,Smith,valerie.smith224@email.com,+1 842-400-1116,1991-08-05,Chicago,Mexico,18355,Silver,2021-12-02,2023-02-20,true,0
+225,Camilla,Davis,camilla.davis225@email.com,+1 332-308-5041,1971-06-08,Phoenix,USA,19546,Silver,2022-05-14,2022-07-06,false,1
+226,Luke,Jones,luke.jones226@email.com,+1 568-511-1971,2003-04-22,Phoenix,UK,46982,Platinum,2021-05-03,2023-05-16,true,1
+227,Matthew,Wilson,matthew.wilson227@email.com,+1 596-229-5431,1985-02-23,New York,UK,34228,Silver,2021-08-03,2023-11-09,true,1
+228,Mary,Taylor,mary.taylor228@email.com,+1 640-413-6462,1995-07-15,San Diego,Germany,40816,Silver,2022-04-13,2022-09-09,false,0
+229,Lucy,Jones,lucy.jones229@email.com,+1 888-539-7703,1966-03-06,Phoenix,Mexico,91498,Platinum,2024-03-23,2025-11-08,true,0
+230,Luke,Wilson,luke.wilson230@email.com,+1 958-564-8261,1968-12-09,San Diego,Canada,97601,Bronze,2024-05-31,2025-03-29,true,1
+231,Sophie,Brown,sophie.brown231@email.com,+1 930-669-4563,1984-03-22,Chicago,France,20708,Platinum,2021-09-09,2021-10-01,true,1
+232,Lucy,Taylor,lucy.taylor232@email.com,+1 470-208-9298,1997-07-21,Los Angeles,UK,80372,Silver,2021-01-05,2024-11-25,false,0
+233,John,Jones,john.jones233@email.com,+1 537-728-2217,1972-06-30,Dallas,Canada,68736,Gold,2022-07-04,2022-08-15,true,0
+234,Mary,Wilson,mary.wilson234@email.com,+1 765-786-7083,2003-12-10,Phoenix,USA,93141,Silver,2022-06-27,2026-01-17,true,1
+235,David,Davis,david.davis235@email.com,+1 639-332-8895,1961-05-13,Phoenix,USA,23126,Platinum,2024-04-20,2024-09-03,false,1
+236,Sophie,Wilson,sophie.wilson236@email.com,+1 318-558-1809,1992-06-14,Philadelphia,USA,46001,Gold,2020-03-13,2021-04-10,true,0
+237,Martin,Williams,martin.williams237@email.com,+1 294-810-6008,1983-02-17,San Antonio,USA,33107,Platinum,2024-01-17,2024-12-04,false,1
+238,Martin,Williams,martin.williams238@email.com,+1 831-617-9641,1991-06-16,Austin,France,57779,Bronze,2022-12-12,2023-01-25,false,1
+239,David,Johnson,david.johnson239@email.com,+1 671-808-2158,1966-07-21,San Diego,USA,56795,Bronze,2022-07-13,2023-11-17,true,0
+240,Peter,Jones,peter.jones240@email.com,+1 252-784-1986,1984-01-01,San Antonio,USA,95235,Gold,2023-11-01,2024-01-31,true,1
+241,Matthew,Johnson,matthew.johnson241@email.com,+1 327-625-2657,2005-03-06,Dallas,Germany,93249,Bronze,2023-04-27,2024-03-07,true,1
+242,Charles,Smith,charles.smith242@email.com,+1 416-674-1596,1979-03-16,Dallas,Canada,57344,Gold,2021-10-10,2024-04-27,true,0
+243,Charles,Davis,charles.davis243@email.com,+1 630-487-7644,1964-05-21,Phoenix,France,63177,Gold,2023-07-24,2024-07-11,true,1
+244,Camilla,Smith,camilla.smith244@email.com,+1 528-540-9920,1972-12-18,Austin,USA,93502,Platinum,2021-03-22,2023-10-16,false,1
+245,Peter,Miller,peter.miller245@email.com,+1 912-964-7686,1976-08-06,Philadelphia,USA,60244,Silver,2020-10-31,2022-06-06,true,1
+246,Anna,Jones,anna.jones246@email.com,+1 624-198-7419,2002-12-28,Houston,UK,96583,Silver,2020-07-22,2023-09-29,true,1
+247,Anna,Williams,anna.williams247@email.com,+1 577-865-7609,1961-04-23,Phoenix,Mexico,70080,Gold,2021-10-18,2023-05-12,false,1
+248,David,Brown,david.brown248@email.com,+1 376-998-7886,1987-03-22,San Antonio,UK,71526,Silver,2022-04-26,2024-01-13,true,1
+249,Valerie,Taylor,valerie.taylor249@email.com,+1 393-507-6776,1965-10-18,San Antonio,Canada,57715,Platinum,2023-10-19,2024-04-17,true,0
+250,Peter,Miller,peter.miller250@email.com,+1 460-947-3146,1979-08-18,Chicago,UK,25593,Silver,2021-12-10,2025-08-31,true,0
+251,Laura,Wilson,laura.wilson251@email.com,+1 968-593-8526,1993-12-08,San Diego,Canada,65173,Bronze,2021-10-28,2023-04-24,false,0
+252,Anna,Brown,anna.brown252@email.com,+1 975-384-3093,1979-01-29,Chicago,France,97266,Bronze,2020-01-08,2021-12-05,true,1
+253,John,Williams,john.williams253@email.com,+1 927-384-7286,1969-10-09,Philadelphia,USA,41297,Silver,2024-03-03,2024-07-15,true,1
+254,Camilla,Jones,camilla.jones254@email.com,+1 974-753-4870,1965-03-12,Houston,USA,62240,Platinum,2022-01-19,2024-04-25,true,1
+255,Sophie,Taylor,sophie.taylor255@email.com,+1 370-946-2971,1996-07-29,Los Angeles,Mexico,80781,Bronze,2022-12-14,2025-03-27,true,0
+256,Lucy,Davis,lucy.davis256@email.com,+1 279-378-9131,1977-02-10,Los Angeles,Germany,29152,Bronze,2021-10-19,2024-10-02,true,0
+257,Camilla,Taylor,camilla.taylor257@email.com,+1 952-415-3396,1970-12-28,Philadelphia,USA,55301,Bronze,2021-09-26,2025-01-27,false,1
+258,Martin,Taylor,martin.taylor258@email.com,+1 869-435-4836,1960-03-25,New York,UK,91012,Bronze,2022-01-02,2024-12-03,false,0
+259,Valerie,Wilson,valerie.wilson259@email.com,+1 342-442-4226,1985-01-22,San Antonio,USA,28218,Platinum,2022-02-23,2025-08-14,false,0
+260,David,Williams,david.williams260@email.com,+1 826-109-6389,1994-08-03,Dallas,USA,71032,Gold,2021-05-29,2022-02-15,false,0
+261,Sophie,Smith,sophie.smith261@email.com,+1 308-771-5930,2001-09-13,Austin,UK,45598,Gold,2023-12-29,2024-02-05,true,0
+262,Gabriel,Jones,gabriel.jones262@email.com,+1 449-140-9736,1966-07-20,Phoenix,USA,70371,Silver,2024-02-08,2025-05-30,true,0
+263,Martin,Brown,martin.brown263@email.com,+1 874-633-5650,1976-03-29,San Diego,USA,42982,Bronze,2020-08-20,2025-11-10,true,1
+264,Matthew,Davis,matthew.davis264@email.com,+1 744-369-8680,1997-05-04,San Antonio,USA,88128,Silver,2023-05-19,2024-06-17,true,1
+265,Matthew,Moore,matthew.moore265@email.com,+1 658-513-4769,2003-09-30,Los Angeles,USA,69675,Silver,2021-07-07,2022-12-19,false,1
+266,Luke,Taylor,luke.taylor266@email.com,+1 691-138-9486,1970-10-09,Houston,USA,23012,Bronze,2023-01-01,2023-02-02,false,0
+267,Sophie,Smith,sophie.smith267@email.com,+1 218-713-9451,1981-07-27,Houston,France,58654,Platinum,2020-04-28,2021-06-23,true,0
+268,Mary,Miller,mary.miller268@email.com,+1 662-897-6423,1968-04-27,Austin,USA,89501,Silver,2020-05-05,2020-08-06,true,0
+269,Sophie,Moore,sophie.moore269@email.com,+1 409-854-6746,1983-10-04,San Antonio,USA,69389,Gold,2020-06-05,2025-05-18,false,1
+270,Lucy,Williams,lucy.williams270@email.com,+1 210-288-2658,2004-07-21,Houston,USA,40955,Bronze,2021-01-31,2021-08-21,true,0
+271,Charles,Wilson,charles.wilson271@email.com,+1 304-885-8905,1997-07-25,Los Angeles,Canada,26271,Platinum,2022-10-14,2024-12-13,true,1
+272,John,Smith,john.smith272@email.com,+1 535-965-6029,1970-02-22,Philadelphia,USA,62896,Bronze,2023-01-21,2025-01-23,true,0
+273,Gabriel,Miller,gabriel.miller273@email.com,+1 714-733-5276,2003-09-29,Austin,France,88805,Gold,2023-01-22,2023-03-27,true,0
+274,Anna,Wilson,anna.wilson274@email.com,+1 776-924-7084,1982-04-10,Austin,France,45341,Silver,2023-12-07,2024-01-19,true,1
+275,Sophie,Jones,sophie.jones275@email.com,+1 440-367-4604,1980-08-07,Chicago,USA,91113,Platinum,2024-01-18,2024-07-26,true,1
+276,Martin,Wilson,martin.wilson276@email.com,+1 815-690-5886,1984-11-30,Houston,Canada,27797,Platinum,2023-09-21,2024-03-10,true,1
+277,Matthew,Wilson,matthew.wilson277@email.com,+1 371-315-5130,1994-01-25,Dallas,Canada,80218,Platinum,2022-01-03,2024-04-02,true,1
+278,Laura,Davis,laura.davis278@email.com,+1 659-409-5194,1998-03-29,Dallas,UK,16705,Silver,2020-08-05,2020-09-24,true,1
+279,Peter,Johnson,peter.johnson279@email.com,+1 820-884-4107,1996-05-25,Chicago,USA,23897,Platinum,2022-11-27,2023-04-30,true,0
+280,David,Taylor,david.taylor280@email.com,+1 253-272-9770,2003-04-22,New York,Germany,87839,Silver,2022-08-10,2026-01-29,true,1
+281,David,Moore,david.moore281@email.com,+1 797-266-8357,1970-01-12,Austin,Canada,27453,Silver,2022-04-26,2025-12-06,true,1
+282,Gabriel,Smith,gabriel.smith282@email.com,+1 201-107-9192,1998-09-29,Phoenix,Mexico,80287,Bronze,2021-07-12,2022-12-17,true,1
+283,Martin,Williams,martin.williams283@email.com,+1 286-330-1415,2003-02-26,Chicago,Canada,64914,Gold,2023-11-30,2025-05-26,false,1
+284,Martin,Miller,martin.miller284@email.com,+1 821-487-4352,2004-04-29,Chicago,Canada,98601,Silver,2024-04-29,2024-06-04,true,0
+285,Camilla,Johnson,camilla.johnson285@email.com,+1 521-622-8890,1966-11-06,San Diego,USA,76685,Gold,2020-01-13,2020-05-29,true,1
+286,Martin,Davis,martin.davis286@email.com,+1 611-519-4412,1991-12-14,New York,France,86277,Platinum,2023-07-19,2023-10-17,true,1
+287,Camilla,Moore,camilla.moore287@email.com,+1 655-474-1890,2003-08-01,New York,USA,16203,Silver,2020-08-23,2025-04-18,true,1
+288,Anna,Miller,anna.miller288@email.com,+1 395-707-1069,1964-10-04,New York,USA,17481,Bronze,2020-05-14,2022-11-18,false,0
+289,Lucy,Moore,lucy.moore289@email.com,+1 324-270-2458,1988-05-17,San Antonio,Canada,40485,Silver,2023-08-04,2024-11-23,false,1
+290,Luke,Johnson,luke.johnson290@email.com,+1 394-974-7829,1996-07-28,Philadelphia,USA,21161,Silver,2020-10-08,2023-04-04,false,0
+291,Martin,Moore,martin.moore291@email.com,+1 644-316-8560,1990-12-09,Houston,USA,28035,Silver,2021-03-13,2023-09-28,false,0
+292,Camilla,Davis,camilla.davis292@email.com,+1 809-151-6363,1998-10-13,San Antonio,Germany,23438,Silver,2024-04-05,2025-12-18,true,1
+293,Valerie,Williams,valerie.williams293@email.com,+1 937-683-4932,1984-06-21,Houston,Germany,93593,Gold,2020-07-18,2022-06-08,true,0
+294,David,Brown,david.brown294@email.com,+1 851-116-9617,1976-06-11,San Antonio,USA,95188,Gold,2023-11-23,2025-12-17,false,0
+295,Gabriel,Williams,gabriel.williams295@email.com,+1 577-279-9880,1993-10-14,San Diego,Germany,96635,Platinum,2020-06-20,2025-12-27,false,0
+296,John,Moore,john.moore296@email.com,+1 355-243-3516,1998-11-13,Los Angeles,Canada,96052,Bronze,2020-01-17,2023-12-28,true,1
+297,Charles,Smith,charles.smith297@email.com,+1 486-536-8077,1983-09-21,Phoenix,USA,67317,Gold,2020-10-07,2022-01-06,true,1
+298,Mary,Miller,mary.miller298@email.com,+1 448-382-5292,1990-07-27,San Antonio,USA,46881,Bronze,2020-02-16,2022-02-17,true,0
+299,Charles,Johnson,charles.johnson299@email.com,+1 297-974-8543,1992-04-30,San Diego,Mexico,42625,Silver,2021-05-19,2024-05-30,true,0
+300,Laura,Smith,laura.smith300@email.com,+1 592-719-2052,1964-10-12,San Antonio,USA,49653,Gold,2024-01-29,2025-09-27,false,0
+301,John,Wilson,john.wilson301@email.com,+1 306-183-7826,1992-10-26,Los Angeles,USA,52341,Gold,2024-03-16,2024-09-26,false,0
+302,Laura,Taylor,laura.taylor302@email.com,+1 538-526-5355,1969-08-25,Houston,Mexico,35269,Silver,2021-11-25,2023-04-11,true,1
+303,Luke,Taylor,luke.taylor303@email.com,+1 329-778-4327,1993-09-20,Dallas,USA,62124,Bronze,2021-10-23,2024-04-19,true,0
+304,Peter,Wilson,peter.wilson304@email.com,+1 230-463-7513,1997-02-14,Austin,Canada,54395,Silver,2023-01-29,2024-03-12,true,0
+305,Anna,Taylor,anna.taylor305@email.com,+1 405-439-6453,1978-06-22,Philadelphia,Germany,15938,Platinum,2023-03-07,2025-11-23,false,1
+306,David,Moore,david.moore306@email.com,+1 872-429-4514,1976-10-04,Austin,UK,79513,Platinum,2023-08-16,2025-09-18,true,1
+307,Camilla,Jones,camilla.jones307@email.com,+1 887-994-4110,1975-07-25,Phoenix,USA,10593,Silver,2022-12-07,2026-01-30,true,0
+308,David,Wilson,david.wilson308@email.com,+1 753-787-4176,1968-11-23,Houston,USA,67412,Gold,2022-04-02,2023-12-24,false,1
+309,David,Davis,david.davis309@email.com,+1 354-924-3486,1973-10-24,Phoenix,France,89924,Bronze,2020-02-29,2022-12-31,false,0
+310,Lucy,Miller,lucy.miller310@email.com,+1 718-210-7321,2004-01-02,Chicago,USA,40039,Platinum,2020-08-31,2024-05-30,false,1
+311,Mary,Taylor,mary.taylor311@email.com,+1 875-981-7734,1974-02-06,Dallas,USA,11593,Silver,2021-12-28,2024-01-14,false,1
+312,Camilla,Brown,camilla.brown312@email.com,+1 360-895-3315,1994-09-10,Philadelphia,Canada,46639,Gold,2021-06-03,2024-10-31,true,1
+313,Luke,Taylor,luke.taylor313@email.com,+1 569-540-1589,2002-08-16,Phoenix,Mexico,92938,Silver,2022-03-02,2022-04-14,false,1
+314,Gabriel,Davis,gabriel.davis314@email.com,+1 880-743-8302,1983-06-28,Chicago,France,47789,Bronze,2022-12-20,2024-07-10,true,1
+315,Peter,Brown,peter.brown315@email.com,+1 644-716-9721,1987-12-15,Los Angeles,Canada,58149,Bronze,2023-01-01,2023-01-22,true,0
+316,Gabriel,Johnson,gabriel.johnson316@email.com,+1 313-264-1654,2003-04-12,San Diego,USA,42592,Bronze,2023-03-03,2025-09-17,true,1
+317,Charles,Johnson,charles.johnson317@email.com,+1 324-712-8772,1969-08-17,Austin,France,44253,Platinum,2020-10-05,2023-05-25,true,0
+318,David,Jones,david.jones318@email.com,+1 615-604-5890,1982-08-26,New York,Germany,49801,Gold,2021-11-11,2026-02-17,true,1
+319,Gabriel,Wilson,gabriel.wilson319@email.com,+1 367-316-9613,2005-08-19,San Diego,Mexico,10247,Gold,2021-12-27,2023-12-17,true,1
+320,Charles,Brown,charles.brown320@email.com,+1 981-762-4014,1994-10-20,San Antonio,USA,90821,Platinum,2022-09-23,2024-10-28,true,1
+321,Luke,Miller,luke.miller321@email.com,+1 866-792-2923,1977-07-05,Phoenix,Mexico,88915,Platinum,2023-10-04,2023-12-10,false,1
+322,Valerie,Jones,valerie.jones322@email.com,+1 359-720-7637,1999-08-30,Los Angeles,Germany,29111,Silver,2022-05-26,2022-09-08,true,1
+323,Gabriel,Miller,gabriel.miller323@email.com,+1 496-127-6302,1982-07-24,Austin,UK,85607,Silver,2021-04-03,2023-06-24,false,1
+324,Mary,Wilson,mary.wilson324@email.com,+1 305-261-2377,1983-07-21,Phoenix,USA,52723,Gold,2020-06-18,2025-08-14,false,1
+325,Laura,Jones,laura.jones325@email.com,+1 727-930-2013,1965-06-21,Chicago,Germany,24239,Platinum,2023-12-22,2025-12-23,true,1
+326,Lucy,Taylor,lucy.taylor326@email.com,+1 734-335-7334,1970-02-17,Phoenix,France,77740,Silver,2021-12-24,2024-08-30,true,0
+327,Valerie,Williams,valerie.williams327@email.com,+1 980-746-8403,1970-09-19,San Diego,USA,66717,Silver,2022-10-17,2024-09-04,false,0
+328,Camilla,Brown,camilla.brown328@email.com,+1 841-767-8590,1987-12-03,Austin,USA,66051,Silver,2021-11-12,2025-06-17,true,0
+329,David,Davis,david.davis329@email.com,+1 538-474-3113,2004-01-12,Austin,USA,87847,Gold,2022-03-24,2025-10-12,true,1
+330,Matthew,Jones,matthew.jones330@email.com,+1 486-104-6392,1994-01-30,Philadelphia,USA,72844,Platinum,2023-12-01,2024-12-17,true,1
+331,Gabriel,Brown,gabriel.brown331@email.com,+1 283-914-4458,1979-12-18,Los Angeles,Mexico,98819,Platinum,2021-10-06,2025-10-11,true,0
+332,Peter,Wilson,peter.wilson332@email.com,+1 621-383-5546,1987-12-20,Houston,UK,37272,Platinum,2024-02-27,2024-04-25,false,1
+333,Lucy,Davis,lucy.davis333@email.com,+1 523-822-5952,1991-07-15,San Diego,France,34029,Platinum,2021-05-16,2025-11-17,true,0
+334,Gabriel,Davis,gabriel.davis334@email.com,+1 780-341-9688,1977-11-27,Austin,USA,10594,Platinum,2022-02-25,2024-11-09,true,0

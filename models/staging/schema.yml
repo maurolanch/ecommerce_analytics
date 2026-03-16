@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: stg_orders
+    description: "Staging de órdenes - datos limpios"
+    columns:
+      - name: order_id
+        description: "Primary key de la orden"
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        description: "FK a customers"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: customer_id
+      - name: total_amount
+        description: "Monto total de la orden"
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0

@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: fct_orders
+    description: |
+      Fact table de órdenes.
+      
+      **Granularidad**: Una fila por orden.
+      
+      **Uso**: Análisis de ventas, revenue, comportamiento de clientes.
+    columns:
+      - name: order_id
+        description: "Identificador único de la orden"
+      - name: order_tier
+        description: |
+          Clasificación de la orden por valor:
+          - High Value: > $100
+          - Medium Value: $50-$100
+          - Low Value: < $50
