@@ -1,4 +1,22 @@
+# Mac
+.DS_Store
 
+# Python environments
+venv/
+.env/
+dbt-env/
+
+# dbt artifacts
 target/
 dbt_packages/
 logs/
+
+# databases
+*.duckdb
+*.db
+*.sqlite
+
+# temporary files
+*.log
+*.tmp
+*.swp
