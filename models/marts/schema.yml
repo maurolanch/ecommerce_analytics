@@ -5,15 +5,45 @@ models:
     description: |
       Orders Fact Table
       
-      **Granularity**: 1 row per order per product.
+      **Granularity**: 1 row per order.
       
       **Use**: Sales analysis, revenue, customer behavior.
     columns:
       - name: order_id
         description: "Unique identifier for the order"
+        tests:
+          - unique
+          - not_null
       - name: order_tier
         description: |
           Classification of the order by value:
           - High Value: > $100
           - Medium Value: $50-$100
           - Low Value: < $50
+  - name: fct_order_items
+    description: |
+      Order Items Fact Table
+      
+      **Granularity**: 1 row per product per order.
+      
+      **Use**: Product-level analysis, revenue by product, category insights.
+    columns:
+      - name: order_id
+        description: "Order identifier"
+        tests:
+          - not_null
+
+      - name: product_id
+        description: "Product identifier"
+        tests:
+          - not_null
+
+      - name: quantity
+        description: "Number of units sold"
+        tests:
+          - not_null
+
+      - name: subtotal
+        description: "Revenue for the line item"
+        tests:
+          - not_null
