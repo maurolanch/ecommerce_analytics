@@ -1,6 +1,6 @@
 WITH base AS (
 
-    SELECT * FROM {{ ref('int_orders_items_enriched') }}
+    SELECT * FROM {{ ref('int_order_items_enriched') }}
 
 )
 
@@ -18,12 +18,21 @@ SELECT
     product_name,
     category_id,
 
-    -- Metrics
-    quantity,
-    unit_price,
-    subtotal,
+    -- Metrics (AGREGADAS)
+    SUM(quantity) AS total_quantity,
+    AVG(unit_price) AS avg_unit_price,
+    SUM(subtotal) AS total_revenue,
 
     -- Flags
-    order_tier
+    MAX(order_tier) AS order_tier
 
 FROM base
+
+GROUP BY
+    order_id,
+    product_id,
+    customer_id,
+    order_date,
+    order_month,
+    product_name,
+    category_id

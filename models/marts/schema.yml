@@ -14,12 +14,18 @@ models:
         tests:
           - unique
           - not_null
+
       - name: order_tier
         description: |
           Classification of the order by value:
           - High Value: > $100
           - Medium Value: $50-$100
           - Low Value: < $50
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['High Value', 'Medium Value', 'Low Value']
+
   - name: fct_order_items
     description: |
       Order Items Fact Table
@@ -32,18 +38,35 @@ models:
         description: "Order identifier"
         tests:
           - not_null
+          - relationships:
+              arguments:
+                to: ref('fct_orders')
+                field: order_id
 
       - name: product_id
         description: "Product identifier"
         tests:
           - not_null
 
-      - name: quantity
-        description: "Number of units sold"
+      - name: total_quantity
+        description: "Total units sold per product per order"
         tests:
           - not_null
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 1
 
-      - name: subtotal
-        description: "Revenue for the line item"
+      - name: total_revenue
+        description: "Revenue per product per order"
         tests:
           - not_null
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns:
+              - order_id
+              - product_id
