@@ -4,27 +4,21 @@ WITH orders AS (
 
 ),
 
-customers AS (
-
-    SELECT * FROM {{ ref('stg_customers') }}
-
-),
-
 order_items AS (
 
     SELECT * FROM {{ ref('stg_order_items') }}
 
 ),
 
-order_items_agg AS (
+customers AS (
 
-    SELECT
-        order_id,
-        SUM(quantity) AS total_items,
-        SUM(subtotal) AS total_revenue,
-        COUNT(*) AS num_products
-    FROM order_items
-    GROUP BY order_id
+    SELECT * FROM {{ ref('stg_customers') }}
+
+),
+
+products AS (
+
+    SELECT * FROM {{ ref('stg_products') }}
 
 ),
 
@@ -37,7 +31,6 @@ enriched AS (
         o.status,
         o.payment_method,
         o.shipping_method,
-        o.total_amount,
 
         -- Customer info
         c.customer_id,
@@ -45,17 +38,22 @@ enriched AS (
         c.customer_email,
         c.customer_city,
 
-        -- Aggregated metrics
-        oi.total_items,
-        oi.total_revenue,
-        oi.num_products,
+        -- Product info
+        p.product_id,
+        p.product_name,
+        p.category_id,
 
-        -- Derived fields
+        -- Order item info
+        oi.quantity,
+        oi.unit_price,
+        oi.subtotal,
+
+        -- Calculated fields
         DATE_TRUNC('month', o.order_date) AS order_month,
 
         CASE
-            WHEN o.total_amount > 100 THEN 'High Value'
-            WHEN o.total_amount > 50 THEN 'Medium Value'
+            WHEN oi.subtotal > 100 THEN 'High Value'
+            WHEN oi.subtotal > 50 THEN 'Medium Value'
             ELSE 'Low Value'
         END AS order_tier
 
@@ -64,8 +62,11 @@ enriched AS (
     LEFT JOIN customers c
         ON o.customer_id = c.customer_id
 
-    LEFT JOIN order_items_agg oi
+    LEFT JOIN order_items oi
         ON o.order_id = oi.order_id
+
+    LEFT JOIN products p
+        ON oi.product_id = p.product_id
 
 )
 
