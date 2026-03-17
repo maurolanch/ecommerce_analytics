@@ -1,11 +1,14 @@
-{{
+{{ 
     config(
         materialized='table'
-    )
+    ) 
 }}
 
 WITH orders AS (
-    SELECT * FROM {{ ref('int_orders_enriched') }}
+
+    SELECT * 
+    FROM {{ ref('int_orders_enriched') }}
+
 )
 
 SELECT
@@ -16,7 +19,7 @@ SELECT
     product_id,
     quantity,
     unit_price,
-    total_amount,
-    discount_amount,
+    subtotal,
     order_tier
+
 FROM orders

@@ -4,17 +4,16 @@
     ) 
 }}
 
-WITH customers AS (
+WITH products AS (
 
     SELECT DISTINCT
-        customer_id,
-        customer_name,
-        customer_email,
-        customer_city
+        product_id,
+        product_name,
+        category_id
 
     FROM {{ ref('int_orders_enriched') }}
 
 )
 
 SELECT * 
-FROM customers
+FROM products
