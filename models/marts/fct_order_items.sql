@@ -1,6 +1,22 @@
+{{ config(
+    materialized='incremental',
+    unique_key=['order_id', 'product_id']
+) }}
+
+
 WITH base AS (
 
-    SELECT * FROM {{ ref('int_order_items_enriched') }}
+    SELECT *
+    FROM {{ ref('int_order_items_enriched') }}
+    
+    {% if is_incremental() %}
+
+        WHERE order_date > (
+            SELECT COALESCE(MAX(order_date), '1900-01-01') FROM {{ this }}
+        )
+
+    {% endif %}
+
 
 )
 

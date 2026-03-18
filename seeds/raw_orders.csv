@@ -999,3 +999,9 @@ order_id,order_number,customer_id,order_date,status,subtotal,discount_percent,sh
 998,ORD-20231104-00998,97,2023-11-04,shipped,452.65,8,190,95.06,701.5,bank_transfer,pickup,,Nota del cliente: Dejar en portería
 999,ORD-20230319-00999,21,2023-03-19,cancelled,5278.02,18,20,1108.38,5456.36,debit_card,same_day,,
 1000,ORD-20240629-01000,47,2024-06-29,shipped,1427.16,15,110,299.7,1622.79,cash_on_delivery,standard,,
+1001,ORD-20260315-01001,88,2026-03-15,shipped,1890.50,6,120,396.99,2307.49,credit_card,express,,
+1002,ORD-20260316-01002,145,2026-03-16,processing,720.30,3,80,151.26,951.56,paypal,standard,2,
+1003,ORD-20260317-01003,210,2026-03-17,delivered,3050.00,10,200,640.50,3890.50,debit_card,same_day,5,
+1004,ORD-20260318-01004,67,2026-03-18,pending,450.75,2,50,94.65,595.40,bank_transfer,pickup,,
+1005,ORD-20260319-01005,134,2026-03-19,cancelled,980.10,4,90,205.82,1275.92,cash_on_delivery,express,,
+1006,ORD-20260320-01006,56,2026-03-20,shipped,1675.00,7,140,351.75,2026.75,credit_card,standard,,
