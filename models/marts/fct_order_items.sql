@@ -18,7 +18,7 @@ SELECT
     product_name,
     category_id,
 
-    -- Metrics (AGREGADAS)
+    -- Metrics (aggregated at order-product level)
     SUM(quantity) AS total_quantity,
     AVG(unit_price) AS avg_unit_price,
     SUM(subtotal) AS total_revenue,

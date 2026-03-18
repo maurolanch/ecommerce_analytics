@@ -5,12 +5,12 @@ models:
     description: "Orders staging - clean data"
     columns:
       - name: order_id
-        description: "Primary key de la orden "
+        description: "Order PK"
         tests:
           - unique
           - not_null
       - name: customer_id
-        description: "FK a customers"
+        description: "FK to customers"
         tests:
           - not_null
           - relationships:

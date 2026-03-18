@@ -1,15 +1,68 @@
-Welcome to your new dbt project!
+# 🛒 Ecommerce Analytics with dbt
 
-### Using the starter project
+Data transformation project built with **dbt** to model ecommerce data into clean, reliable, and analytics-ready datasets.
 
-Try running the following commands:
-- dbt run
-- dbt test
+---
 
+## 🚀 Overview
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+This project transforms raw data into a structured model for:
+
+* Sales analysis
+* Customer insights
+* Product performance
+
+---
+
+## 🧱 Data Model
+
+The pipeline follows a layered approach:
+
+* **Staging (`stg_`)** → cleaning and standardization
+* **Intermediate (`int_`)** → joins and business logic
+* **Marts (`fct_`, `dim_`)** → final analytical tables
+
+---
+
+## 📊 Models
+
+* `fct_orders` → 1 row per order
+* `fct_order_items` → 1 row per product per order
+* `dim_customers`
+* `dim_products`
+
+---
+
+## 🧪 Testing
+
+Includes data quality checks:
+
+* `not_null`, `unique`
+* `relationships`
+* `accepted_range`
+* composite keys
+
+---
+
+## ⚙️ Run
+
+```bash
+dbt deps
+dbt build
+```
+
+---
+
+## 📚 Docs
+
+```bash
+dbt docs generate
+dbt docs serve
+```
+
+---
+
+## 👨‍💻 Author
+
+Mauricio Lancheros
+Data Engineer
